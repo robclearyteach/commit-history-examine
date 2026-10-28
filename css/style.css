@@ -87,7 +87,40 @@ aside {
   margin-bottom: 0.5rem;
 }
 
+.content-links {
+  background: #f2f4f8;
+  margin-top: 2rem;
+}
 
+.content-links {
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.content-links h2 {
+  color: #5B4B6B;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-links ul {
+  list-style: none;
+}
+
+.content-links ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 0 2rem;
+}
+.content-links li {
+  margin: .5rem 0;
+}
+
+.content-links a {
+  text-decoration: none;
+  color: #2563eb;
+}
 
 @media (max-width: 768px) {
   header {
