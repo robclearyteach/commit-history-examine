@@ -29,7 +29,9 @@ nav a:hover {
 }
 
 main {
-	padding: 1rem;
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
 }
 
 nav {
@@ -78,6 +80,7 @@ aside {
 .hero h2 {
   margin-bottom: 0.5rem;
 }
+
 
 @media (max-width: 768px) {
   header {
