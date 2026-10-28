@@ -18,6 +18,12 @@ footer {
 	padding: 1rem;
 }
 
+h1,
+h2,
+h3{
+  line-height: 1.2;
+}
+
 nav a {
 	color: #fff;
 	text-decoration: none;
@@ -80,6 +86,7 @@ aside {
 .hero h2 {
   margin-bottom: 0.5rem;
 }
+
 
 
 @media (max-width: 768px) {
